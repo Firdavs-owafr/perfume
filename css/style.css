@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 240, 216);
+}
+
+.wrapper{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.wrapper .image{
+    width: 50%;
+    height: 100%;
+}
+
+.wrapper .image img{
+    border-radius: 15px 0px 0px 15px; 
+}
+
+.wrapper .infos{
+    width: 50%;
+    height: 100%;
+}
+
+.wrapper .infos .perfume {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+    margin: 32px 0px 15px 32px;
+}
+
+.wrapper .infos .gabriell{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+    margin: 20px 32px 24px 32px;
+}
+
+.wrapper .infos .floral{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    margin: 24px 31px 29px 32px;
+}
+
+.wrapper .infos .babki{
+    display: flex;
+    width: 162px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 29px 19px 30px 32px;
+}
+
+.wrapper .infos .babki .money{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+}
+
+.wrapper .infos .babki .money1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+}
+
+.wrapper .infos .eks{
+    width: 236px;
+    height: 48px;
+    margin: 16px 16px 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3D8168;
+    border-radius: 8px;
+}
+
+.wrapper .infos .ekshen{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
